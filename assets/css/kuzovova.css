@@ -12,12 +12,16 @@ body {
 	height: auto;
 }
 
-#first {
+.firstUnit {
 	height: 100vh;
 }
-#second {
+.secondUnit {
 	height: 640px;
 	background-color: red;
+}
+
+.addForm {
+	float: left;
 }
 
 #nav {
