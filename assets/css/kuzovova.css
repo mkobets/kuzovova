@@ -2,75 +2,49 @@ body {
 	min-width: 320px;
 }
 
-.listNoneStyle {
-	list-style-type: none;
-	padding-left: 0px;
-}
-
-.keis_img {
-	max-width: 50%;
-	height: auto;
-}
-
-.firstUnit {
-	height: 100vh;
-}
-.secondUnit {
-	height: 640px;
-	background-color: red;
-}
-
-.addForm {
-	display: table;
-	height: 100%;
-	width: 100%;
-}
-
-.addFormContent {
-	display: table-cell;
-	vertical-align: middle;
-}
-
-#nav {
-	margin-left:-15px;
- 	margin-right:-15px;
-}
-
-#test {
-	height: 640px;
-}
-
 .navbar {
    background-color: transparent;
    background: transparent;
    border-color: transparent;
+   margin-left:-15px;
+   margin-right:-15px;
 }
 
 .navbar li { color: #000 }
 
-
-
-.border {
-	border: 2px solid red;
+.first-unit {
+	height: 100vh;
 }
 
-.parent {
-        display:table;
-        height:100%;
-        display:table;table-layout:fixed;
+.add-form {
+	display: table;
+	height: 100%;
+	width: 100%;
+	padding-bottom: 100px;
 }
 
-.child {
-        text-align:center;
-        border:2px solid gray;
-        height:80%;
+.add-form-content {
+	display: table-cell;
+	vertical-align: middle;
 }
 
-.center-child{
-  	display:table-cell;
-  	vertical-align:middle;
- }
+.service-column {
+	padding-top: 60px;
+}
 
- .col-lg-4 {
- 	min-height: 85vh;
- }
+.service-img {
+	max-width: 100%;
+	height: auto;
+}
+
+.service-description {
+	height: 150px;
+	padding-top: 40px;
+}
+
+.list-none-style {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+
