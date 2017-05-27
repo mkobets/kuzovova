@@ -1,0 +1,65 @@
+body {
+	min-width: 320px;
+}
+
+.listNoneStyle {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.keis_img {
+	max-width: 50%;
+	height: auto;
+}
+
+#first {
+	height: 100vh;
+}
+#second {
+	height: 640px;
+	background-color: red;
+}
+
+#nav {
+	margin-left:-15px;
+ 	margin-right:-15px;
+}
+
+#test {
+	height: 640px;
+}
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.navbar li { color: #000 } 
+
+
+
+.border {
+	border: 2px solid red;
+}
+
+.parent {
+        display:table;   
+        height:100%;    
+        display:table;table-layout:fixed;
+}
+
+.child {
+        text-align:center;
+        border:2px solid gray;
+        height:80%;
+}
+
+.center-child{
+  	display:table-cell;
+  	vertical-align:middle;
+ }
+
+ .col-lg-4 {
+ 	min-height: 85vh;
+ } 
