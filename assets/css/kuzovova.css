@@ -1,5 +1,5 @@
-/*html { 
-  background: url(../img/first_unit_background.png) no-repeat center center fixed; 
+/*html {
+  background: url(../img/first_unit_background.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11,7 +11,7 @@ body {
 }
 
 #back-ground-image {
-	background: url(../img/first_unit_background.png) no-repeat center center fixed; 
+	background: url(../img/first_unit_background.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -79,6 +79,41 @@ body {
 	text-align: right;
 }
 
+.cases-carousel-container {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
 
+.cases-carousel .case-slide {
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+}
 
+.cases-carousel img {
+	max-width: 320px;
+	height: 400px;
+}
 
+.case-container {
+	position: absolute;
+	display: table;
+	top: 0;
+	width: 100%;
+	height: 400px; /* equal to cases-carousel img height */
+	color: green;
+}
+
+.case {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.slick-prev.slick-arrow:before {
+	color: green;
+}
+
+.slick-next.slick-arrow:before {
+	color: green;
+}
