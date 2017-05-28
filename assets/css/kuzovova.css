@@ -1,5 +1,23 @@
+/*html {
+  background: url(../img/first_unit_background.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
 body {
 	min-width: 320px;
+}
+
+#back-ground-image {
+	background: url(../img/first_unit_background.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+
 }
 
 .navbar {
@@ -45,6 +63,20 @@ body {
 .list-none-style {
 	list-style-type: none;
 	padding-left: 0px;
+}
+
+.footer {
+	padding-top: 40px;
+}
+
+.my-label {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.contacts {
+	text-align: right;
 }
 
 .cases-carousel-container {
