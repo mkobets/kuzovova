@@ -1,34 +1,14 @@
-/*html {
-  background: url(../img/first_unit_background.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+header {	
+    height: 100vh;
+    -webkit-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    background: url(../img/first_unit_background.png) 50% 100% no-repeat;
+    background-size: cover;
 }
-*/
-body {
-	min-width: 320px;
-}
-
-#back-ground-image {
-	background: url(../img/first_unit_background.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  position: absolute;
-
-}
-
-.navbar {
-   background-color: transparent;
-   background: transparent;
-   border-color: transparent;
-   margin-left:-15px;
-   margin-right:-15px;
-}
-
-.navbar li { color: #000 }
 
 .first-unit {
 	height: 100vh;
@@ -44,6 +24,10 @@ body {
 .add-form-content {
 	display: table-cell;
 	vertical-align: middle;
+}
+
+.services-unit {
+	padding-bottom: 60px;
 }
 
 .service-column {
