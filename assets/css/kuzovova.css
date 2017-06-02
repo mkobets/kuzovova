@@ -13,13 +13,17 @@ body {
 
 .navbar {
     border-width: 0px;
-    background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
+    background-color: #00bcd4; opacity: 0.7; filter: alpha(opacity=70);
     margin-bottom: 0px;
     position: absolute;
     width: 100%;
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+    color: #FFFFFF;
 }
 
  .navbar {
@@ -59,6 +63,19 @@ body {
 .add-form-content {
 	display: table-cell;
 	vertical-align: middle;
+	color: #FFFFFF;
+}
+
+.add-form button {
+	background-color: #00bcd4;
+	color: #FFFFFF;
+	font-size: 1.5em;
+	border: none;
+	width: 200px;
+	height: 60px;
+	-webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
 }
 
 .wrapper {
