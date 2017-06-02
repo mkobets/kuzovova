@@ -5,21 +5,48 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
 body {
 	background: transparent;
+	font-size: 200%;
 }
 
 .navbar {
     border-width: 0px;
-    -webkit-box-shadow: 0px 0px;
-    box-shadow: 0px 0px;
     background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
     margin-bottom: 0px;
     position: absolute;
     width: 100%;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
 }
 
-.one {
+ .navbar {
+  min-height: 80px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 2em;
+}
+
+.navbar-toggle {
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+}
+
+.add-form-wrapper {
 	height: 100vh;
 }
 
@@ -52,7 +79,7 @@ body {
 }
 
 .service-description {
-	height: 150px;
+	height: 250px;
 	padding-top: 40px;
 }
 
