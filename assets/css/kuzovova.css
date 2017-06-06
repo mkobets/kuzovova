@@ -181,13 +181,17 @@ a {
 }
 
 .case {
-	/*display: table-cell;*/
 	display: none;
 	vertical-align: middle;
 	text-align: center;
-	/*background-color: rgba(0,188,212, 0.1);*/
 	background-color: rgba(0,0,0, 0.4);
 	padding: 0 50px 0 50px;	
+}
+
+@media (max-width: 768px) {
+  .case {
+    display: table-cell;
+  }
 }
 
 .slick-prev.slick-arrow:before {
