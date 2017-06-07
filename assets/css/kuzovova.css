@@ -63,7 +63,7 @@ h3 {
 }
 
 .background-opacity {
-	background-color: rgba(0,188,212, 0.2);
+	background-color: rgba(0,188,212, 0.1);
 }
 
 .add-form-wrapper {
@@ -136,9 +136,10 @@ ul li:first-of-type{
     padding: 10px 20px;
     font-size: 20px;
     border-radius: 10px;
+    width:100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 700px) {
   .btn-xl {
     width:20%;
   }
@@ -149,6 +150,7 @@ form .btn  {
 	height: 50px;
 	margin-top: 15px;
 	margin-bottom: 40px;
+	font-size: 120%;
 
 }
 
@@ -172,6 +174,7 @@ form .btn  {
 a {
 	color: #212121;
 }
+
 a:hover {
 	color: #FFFFFF;
 }
