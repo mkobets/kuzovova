@@ -17,6 +17,11 @@ h3 {
 	height: 170px;
 }
 
+*:focus {
+
+    outline: none;
+}
+
 .navbar {
     border-width: 0px;
     background-color: rgba(0,188,212, 0.7);
@@ -132,6 +137,14 @@ h3 {
 .btn-primary:hover {
 	background-color: #FFFFFF;
 	color: #00BCD4;
+}
+
+.btn-lg {
+	border: 1px solid transparent;
+}
+
+.btn-lg:hover {
+	border: 1px solid #00BCD4;
 }
 
 .btn-xl {
