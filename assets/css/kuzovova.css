@@ -9,7 +9,7 @@ html {
 body {
 	background: transparent;
 	font-size: 200%;
-	color: #757575;
+	color: #212121;
 	font-family: "Ubuntu", Arial, sans-serif;
 }
 
@@ -84,7 +84,8 @@ h3 {
 }
 
 .wrapper {
-	background: url(../img/triangle_background.png) no-repeat center center fixed;
+	/*background: url(../img/triangle_background.png) no-repeat center center fixed;*/
+	background-color: #FFFFFF;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -151,7 +152,8 @@ form .btn  {
 
 
 .footer-wrapper {
-	background-color: #009688;
+	background: url(../img/triangle_footer_background.png) no-repeat center center fixed;
+	/*background-color: #212121;*/
 	color: #FFFFFF; 
 }
 
@@ -167,11 +169,11 @@ form .btn  {
 }
 
 a {
-	color: #212121;
+	color: #FFFFFF;
 }
 
 a:hover {
-	color: #FFFFFF;
+	color: #00BCD4;
 }
 
 
@@ -208,6 +210,7 @@ a:hover {
 	width: 100%;
 	height: 400px; /* equal to cases-carousel img height */
 	color: #FFFFFF;
+	background-color: rgba(0,188,212, 0.1);
 }
 
 .case {
