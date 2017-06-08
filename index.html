@@ -230,30 +230,40 @@
 			<div class="row">
 
 				<div class="col-sm-4">
-					<form method="POST" action="https://script.google.com/macros/s/AKfycbzW-cpEI2Ycsg8KkgXQ1ANX46RgvHjl2WPlSzsveZxwcNbMH7jM/exec">
+
+					<form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbzW-cpEI2Ycsg8KkgXQ1ANX46RgvHjl2WPlSzsveZxwcNbMH7jM/exec">
+						
 						<div class="form-group">
-							<label for="name-input">Имя</label>
-							<input type="text" class="form-control" id="name-input" name="name" placeholder="Имя">
+							<label for="name">Имя:</label>
+							<input type="text" class="form-control" id="name" name="name" placeholder="Имя">
 				 		</div>
 
 				 		<div class="form-group">
-				    		<label for="tel-number-input">Номер телефона</label>
-				    		<input type="text" class="form-control" id="tel-number-input" name="phone_number" placeholder="Номер телефона">
+				    		<label for="number">Номер телефона</label>
+				    		<input type="text" class="form-control" id="number" name="number" placeholder="Номер телефона">
 						</div>
 
 				 		<div class="form-group">
-							<label for="email-input">Email</label>
-							<input type="email" class="form-control" id="email-input" name="email" placeholder="Email">
+							<label for="email">Email</label>
+							<input class="form-control" id="email" name="email" type="email" value="" required placeholder="Email">
+							<span id="email-invalid" style="visibility:hidden">
+							Must be a valid email address
+							</span>
 				 		</div>
 
 				  		<button 
-							type="submit"
 							class="btn btn-primary btn-lg"
 						>
 						Заказать
 						</button>
 
 					</form>
+
+					<div style="display:none;" id="thankyou_message">
+    				<h2>Ваш заказ принят <br>
+    				Мы скоро с вами свяжемся!</h2>
+ 					</div>
+
 				</div>
 
 				<div class="col-sm-8 contacts">
@@ -296,26 +306,49 @@
         <h4 class="modal-title" id="order-modal-label">Order</h4>
       </div>
       <div class="modal-body">
-				<form>
-					<div class="form-group">
-						<label for="name-input">Имя</label>
-						<input type="text" class="form-control" id="name-input" placeholder="Имя">
-			 		</div>
 
-			 		<div class="form-group">
-			    		<label for="tel-number-input">Номер телефона</label>
-			    		<input type="text" class="form-control" id="tel-number-input" placeholder="Номер телефона">
+				<form id="ugform" method="POST" action="https://script.google.com/macros/s/AKfycbzW-cpEI2Ycsg8KkgXQ1ANX46RgvHjl2WPlSzsveZxwcNbMH7jM/exec">
+					
+					<div class="form-group">
+						<label for="name">Имя:</label>
+						<input type="text" class="form-control" id="name" name="name" placeholder="Имя">
+				 	</div>
+
+				 	<div class="form-group">
+				    	<label for="number">Номер телефона</label>
+				    	<input type="text" class="form-control" id="number" name="number" placeholder="Номер телефона">
 					</div>
 
-			 		<div class="form-group">
-						<label for="email-input">Email</label>
-						<input type="email" class="form-control" id="email-input" placeholder="Email">
-			 		</div>
+				 	<div class="form-group">
+						<label for="email">Email</label>
+						<input class="form-control" id="email" name="email" type="email" value="" required placeholder="Email">
+						<span id="email-invalid" style="visibility:hidden">
+						Must be a valid email address
+						</span>
+				 	</div>
+
+				 	<button 
+				 	class="btn btn-primary btn-lg"
+					>
+					Заказать
+					</button>
+
+				</form>
+
+					<div style="display:none;" id="thankyou_message">
+    				<h2>Ваш заказ принят <br>
+    				Мы скоро с вами свяжемся!</h2>
+ 					</div>
+				
 				</form>
       </div>
-      <div class="modal-footer">
+
+<!--       <div class="modal-footer">
+
         <button type="submit" class="btn btn-default btn-xl submit-order-button">Заказать</button>
-      </div>
+
+      </div> -->
+
     </div>
   </div>
 </div>
@@ -368,7 +401,7 @@
 		});
 </script>
 
-<script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+<script data-cfasync="false" type="text/javascript" src="./assets/js/form-submission-handler.js"></script>
 
 </body>
 </html>
