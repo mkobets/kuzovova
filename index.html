@@ -57,7 +57,7 @@
 						<li>все приимущества рекламы в социальных сетях</li>
 					</ul>
 
-					<button 
+					<button
 						type="button"
 						class="btn btn-primary btn-xl"
 						data-toggle="modal"
@@ -80,7 +80,7 @@
 		<div class="row services-unit">
 
 			<div class="col-lg-3 col-md-6 col-sm-12 text-center service-column">
-				
+
 				<img class="service-img" src="assets/img/facebook_rem.png"></img>
 
 				<ul class="list-none-style service-description">
@@ -89,7 +89,7 @@
 					<li>ключевая информация</li>
 					<li>ключевая информация</li>
 				</ul>
-				<button 
+				<button
 					type="button"
 					class="btn btn-primary btn-lg"
 					data-toggle="modal"
@@ -110,7 +110,7 @@
 					<li>ключевая информация</li>
 					<li>ключевая информация</li>
 				</ul>
-				<button 
+				<button
 					type="button"
 					class="btn btn-primary btn-lg"
 					data-toggle="modal"
@@ -131,7 +131,7 @@
 					<li>ключевая информация</li>
 					<li>ключевая информация</li>
 				</ul>
-				<button 
+				<button
 					type="button"
 					class="btn btn-primary btn-lg"
 					data-toggle="modal"
@@ -151,7 +151,7 @@
 					<li>ключевая информация</li>
 					<li>ключевая информация</li>
 				</ul>
-				<button 
+				<button
 					type="button"
 					class="btn btn-primary btn-lg"
 					data-toggle="modal"
@@ -161,9 +161,9 @@
 				</button>
 			</div>
 		</div>
-	
 
-	
+
+
 		<div class="cases-carousel-container">
 			<div class="cases-carousel">
 
@@ -232,7 +232,7 @@
 				<div class="col-sm-4">
 
 					<form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbzW-cpEI2Ycsg8KkgXQ1ANX46RgvHjl2WPlSzsveZxwcNbMH7jM/exec">
-						
+
 						<div class="form-group">
 							<label for="name">Имя:</label>
 							<input type="text" class="form-control" id="name" name="name" placeholder="Имя">
@@ -251,7 +251,7 @@
 							</span>
 				 		</div>
 
-				  		<button 
+				  		<button
 							class="btn btn-primary btn-lg"
 						>
 						Заказать
@@ -286,7 +286,7 @@
 			</div>
 		</div>
 	</div>
-</div>	
+</div>
 
 
 
@@ -308,7 +308,7 @@
       <div class="modal-body">
 
 				<form id="f-gform" method="POST" action="https://script.google.com/macros/s/AKfycbzW-cpEI2Ycsg8KkgXQ1ANX46RgvHjl2WPlSzsveZxwcNbMH7jM/exec">
-					
+
 					<div class="form-group">
 						<label for="f-name">Имя:</label>
 						<input type="text" class="form-control" id="f-name" name="name" placeholder="Имя">
@@ -327,7 +327,7 @@
 						</span>
 				 	</div>
 
-				 	<button 
+				 	<button
 				 	class="btn btn-primary btn-lg"
 					>
 					Заказать
@@ -339,7 +339,7 @@
     				<h2>Ваш заказ принят <br>
     				Мы скоро с вами свяжемся!</h2>
  					</div>
-				
+
 	</div>
 
 <!--       <div class="modal-footer">
@@ -361,7 +361,7 @@
 <script src="https://use.fontawesome.com/1012862568.js"></script>
 <script>
 	$(document).ready(function(){
-	  	$('.cases-carousel').slick({
+	  $('.cases-carousel').slick({
 			dots: true,
 	  		infinite: true,
 	  		speed: 300,
@@ -383,21 +383,17 @@
 	      		}
 			]
 		});
-	});
-</script>
 
-<script>
-		$(document).ready(function(){
-			$('.case-container').hover(function() {
-				
-				$(this).children('.case').fadeIn('700');
-				$(this).children('.case').css("display", "table-cell");
-				},
-				function(){
-				$(this).children('.case').fadeOut('700');
-				}
-			);
-		});
+		$('.case-container').hover(function() {
+
+			$(this).children('.case').fadeIn('700');
+			$(this).children('.case').css("display", "table-cell");
+			},
+			function(){
+			$(this).children('.case').fadeOut('700');
+			}
+		);
+	});
 </script>
 
 <script data-cfasync="false" type="text/javascript" src="./assets/js/form-submission-handler.js"></script>
