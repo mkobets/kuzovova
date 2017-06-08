@@ -79,7 +79,7 @@ function loaded() {
   form.addEventListener("submit", handleFormSubmit('gform', 'email-invalid', 'thankyou_message'), false);
 
   var modalForm = document.getElementById('f-gform');
-  form.addEventListener("submit", handleFormSubmit('f-gform', 'f-email-invalid', 'f-thankyou_message'), false);
+  modalForm.addEventListener("submit", handleFormSubmit('f-gform', 'f-email-invalid', 'f-thankyou_message'), false);
 };
 
 document.addEventListener('DOMContentLoaded', loaded, false);
