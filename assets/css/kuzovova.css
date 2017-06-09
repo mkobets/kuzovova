@@ -8,7 +8,7 @@ html {
 
 body {
 	background: transparent;
-	font-size: 200%;
+	font-size: 16px;
 	color: #212121;
 	font-family: "Ubuntu", Arial, sans-serif;
 }
@@ -39,6 +39,7 @@ h3 {
 
  .navbar {
   min-height: 80px;
+  font-size: 20px;
 }
 
 .navbar-brand {
@@ -53,14 +54,6 @@ h3 {
 .navbar-toggle {
   margin-top: 23px;
   padding: 9px 10px !important;
-}
-
-@media (min-width: 768px) {
-  .navbar-nav > li > a {
-    padding-top: 26.5px;
-    padding-bottom: 26.5px;
-    line-height: 27px;
-  }
 }
 
 .background-opacity {
@@ -85,18 +78,21 @@ h3 {
 
 .add-form-content .list-none-style li:first-of-type {
 	font-weight: 700;
-	font-size: 1.5em;
+	font-size: 32px;
 }
 
 .wrapper {
-	/*background: url(../img/triangle_background.png) no-repeat center center fixed;*/
-	/*background-color: #FFFFFF;*/
-	background-color: rgba(255,255,255, 0.8);
+/*	background: url(../img/triangle_background.png) no-repeat center center fixed;
+*/	background-color: #FFFFFF;
 	/*-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;*/
 }
+
+/*.service-opacity {
+	background-color: rgba(255,255,255, 0.7);
+}*/
 
 .services-unit {
 	padding: 0px 0 0px 0;
@@ -113,13 +109,12 @@ h3 {
 
 .service-description {
 	height: 185px;
-	padding-top: 15px;
+	padding-top: 27px;
 }
 
 .service-description li:first-of-type{
-	font-size: 1.1em;
+	font-size: 19px;
 	padding-bottom: 10px;
-
 }
 
 .list-none-style {
@@ -166,7 +161,7 @@ form .btn  {
 
 
 .footer-wrapper {
-	background: url(../img/triangle_footer_background.png) no-repeat center center fixed;
+	background: url(../img/triangle_footer_background.png) no-repeat center bottom fixed;
 	/*background-color: #212121;*/
 	color: #FFFFFF; 
 }
@@ -243,6 +238,22 @@ a:hover {
 	display: none;
 }
 
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+}
+
+/*@media (min-width: 320px) {
+  .navbar-nav > li > a {
+    padding-top: 23.5px;
+    padding-bottom: 23.5px;
+    line-height: 24px;
+  }
+}
+*/
 
 @media (max-width: 768px) {
   .btn-xl {
