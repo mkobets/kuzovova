@@ -45,7 +45,7 @@ function getFormData(formId) {
 function handleFormSubmit(formId, emailInvalidId, thanksMessageId) {
   return function(event) {
     event.preventDefault();
-    var data = getFormData();
+    var data = getFormData(formId);
     if( !validEmail(data.email) ) {
       document.getElementById(emailInvalidId).style.display = 'block';
       return false;
