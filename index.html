@@ -173,6 +173,7 @@
 
 				<div class="case-slide">
 					<img src="./assets/img/keise_britax.png" />
+					<div class="case-color-wrapper"></div>
 					<div class="case-container">
 						<div class="case">
 							<h3>Продвижение интернет-магазина детской одежды Bebe Confort в социальных сетях</h3>
@@ -186,6 +187,7 @@
 
 				<div class="case-slide">
 					<img src="./assets/img/keise_shoes.png" />
+					<div class="case-color-wrapper"></div>
 					<div class="case-container">
 						<div class="case">
 							<h3>Продвижение интернет-магазина женской обуви SexyFairy в социальных сетях</h3>
@@ -199,6 +201,7 @@
 
 				<div class="case-slide">
 					<img src="./assets/img/keise_jeal.png" />
+					<div class="case-color-wrapper"></div>
 					<div class="case-container">
 						<div class="case">
 							<h3>Продвижение интернет-магазина верхней одежды Juliya House в социальных сетях</h3>
@@ -212,6 +215,7 @@
 
 				<div class="case-slide">
 					<img src="./assets/img/preview_agreemarket.png" />
+					<div class="case-color-wrapper"></div>
 					<div class="case-container">
 						<div class="case">
 							<h3>Продвижение интернет-магазина для садоводства и овощеводства AgreeMarket в социальных сетях</h3>
@@ -241,7 +245,7 @@
 
 						<div class="form-group">
 							<label for="name">Имя:</label>
-							<input type="text" class="form-control" id="name" name="name" placeholder="Имя">
+							<input type="text" class="form-control" id="name" name="name" placeholder="Ваше имя">
 				 		</div>
 
 				 		<div class="form-group">
@@ -251,7 +255,7 @@
 
 				 		<div class="form-group">
 							<label for="email">Email</label>
-							<input class="form-control" id="email" name="email" type="email" value="" required placeholder="Email">
+							<input class="form-control" id="email" name="email" type="email" value="" required placeholder="Ваш email">
 							<span id="email-invalid" style="visibility:hidden">
 							Must be a valid email address
 							</span>
@@ -317,7 +321,7 @@
 
 					<div class="form-group">
 						<label for="f-name">Имя:</label>
-						<input type="text" class="form-control" id="f-name" name="name" placeholder="Имя">
+						<input type="text" class="form-control" id="f-name" name="name" placeholder="Ваше имя">
 				 	</div>
 
 				 	<div class="form-group">
@@ -327,7 +331,7 @@
 
 				 	<div class="form-group">
 						<label for="f-email">Email</label>
-						<input class="form-control" id="f-email" name="email" type="email" value="" required placeholder="Email">
+						<input class="form-control" id="f-email" name="email" type="email" value="" required placeholder="Ваш email">
 						<span id="f-email-invalid" style="visibility:hidden">
 						Must be a valid email address
 						</span>
@@ -389,16 +393,6 @@
 	      		}
 			]
 		});
-
-		$('.case-container').hover(function() {
-
-			$(this).children('.case').fadeIn('700');
-			$(this).children('.case').css("display", "table-cell");
-			},
-			function(){
-			$(this).children('.case').fadeOut('700');
-			}
-		);
 
 		$('a[href*="#"]')
   		// Remove links that don't actually link to anything

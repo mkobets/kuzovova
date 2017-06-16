@@ -157,7 +157,7 @@ h3 {
 
 .btn-xl {
     padding: 10px 20px;
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 10px;
     width:25%;
 }
@@ -220,7 +220,15 @@ a:hover {
 	margin-right: 0px;
 }
 
-.cases-carousel img {
+.case-color-wrapper {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 400px; /* equal to cases-carousel img height */
+	background-color: rgba(0,0,0, 0.2);
+}
+
+.cases-carousel div img {
 	max-width: 400px;
 	height: 400px;
 }
@@ -232,11 +240,17 @@ a:hover {
 	width: 100%;
 	height: 400px; /* equal to cases-carousel img height */
 	color: #FFFFFF;
-	background-color: rgba(0,0,0, 0.1);
+	/*background-color: rgba(0,0,0, 0.8);*/
+	opacity: 0;
+	transition: 0.8s ease;
+}
+
+.case-slide:hover .case-container {
+	opacity: 1;
 }
 
 .case {
-	display: none;
+	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
 	background-color: rgba(0,0,0, 0.4);
